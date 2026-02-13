@@ -1,0 +1,151 @@
+h1{
+    color: yellow;
+}
+
+#test, #test1{
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    text-decoration: line-through;
+}
+
+.news{
+    color: blueviolet;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    text-decoration:solid;
+}
+
+h4{
+    color: rgb(248, 2, 137);
+    font-style: italic;
+    font-weight: 200;
+    text-decoration:solid;
+}
+
+*{
+    font-family: fantasy;
+}
+
+.username{
+    width: 100px;
+    height: 25px;
+    border: 1px solid transparent;
+    color: teal;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    border-radius: 6px;
+    background-color: rgb(163, 209, 194);
+    padding: 10px;
+    outline: none;
+    caret-color: orange;
+    transition: background-color 2s;
+}
+
+
+.username::placeholder{
+    color: brown;
+    font-style: normal;
+}
+
+.username:hover{
+    background-color: rgb(113, 226, 113);
+    color: yellow;
+}
+
+.username:focus{
+    border-color: red;
+}
+
+.section1{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/0c419046123d2d6ab973a6f760f663e3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /*cover or contain */
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly; /* or space around*/
+    flex-wrap: wrap;
+    row-gap: 20px;
+    flex-direction:row;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 4px #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.login{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://imgs.search.brave.com/t_MAWQSCX2XEgSnoKRnkKSvc34-2K4rHq7t1LZT3YMs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9tb2Rlcm4tYWJz/dHJhY3QtY29sb3Jm/dWwtbGlxdWlkLWJh/Y2tncm91bmRfNzUy/NzA3LTQ1MC5qcGc_/c2VtdD1haXNfaHli/cmlkJnc9NzQwJnE9/ODA);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform{
+    width: 30%;
+    height: 40vh;
+    background-color: #5fb84d;
+    box-shadow: 0px 0px 4px 4px #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userid{
+    width: 320px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.loginbtn{
+    background-color: rgb(4, 97, 66);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    padding: 8px;
+    width: 315px;
+    height: 35px;
+}
+
+.logintxt{
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .card{
+        background-color: #8b2929;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .card{
+        background-color: #8b2929;
+    }
+}
