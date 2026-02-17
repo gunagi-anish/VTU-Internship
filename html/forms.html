@@ -11,12 +11,12 @@
 <body>
     <script src="../js/welcome.js"></script>
     <form action="">
-        <input type="text" name="username" placeholder="Enter your name" value="Anish" class="username"><br>
-        <input type="number" name="age" placeholder="Enter your Age" min="18" max="35" required><br>
-        <input type="email" name="" id="" placeholder="Enter an email address" required><br>
-        <input type="password" name="" id="" placeholder="Enter your password" required><br>
-        <input type="search" name="" id="" placeholder="Search here..."><br>
-        <select name="" id="">
+        <input type="text" name="username" id="typeIn" placeholder="Enter your name" value="Anish" class="username"><br>
+        <input type="number" name="age" id="typedAge" placeholder="Enter your Age" min="18" max="35" required><br>
+        <input type="email" name="" id="emailID" placeholder="Enter an email address" required><br>
+        <input type="password" name="" id="pass" placeholder="Enter your password" required><br>
+        <input type="search" name="" id="search" placeholder="Search here..."><br>
+        <select name="" id="country">
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
             <option value="fiat">Fiat</option>
@@ -31,11 +31,11 @@
         <input type="checkbox" name="subject" id="" value="CP">CP<br>
         <input type="checkbox" name="subject" id="" value="Web Development">Web Development<br>
 
-        <input type="file" name="" id="" placeholder="Enter a file"><br>
-        <input type="color" name="" id="" placeholder="Select a color"><br>
-        <input type="range" name="" id=""><br>
+        <input type="file" name="" id="fileName" placeholder="Enter a file"><br>
+        <input type="color" name="" id="colorName" placeholder="Select a color"><br>
+        <input type="range" name="" id="rangeName"><br>
 
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="onSubmit()">Submit</button>
     </form>
 
     <ol type="I" start="3">
