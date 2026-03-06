@@ -11,6 +11,7 @@ function Header() {
             <a href='/blog' className='navlinks'>Blog</a>
             <a href='/login' className='navlinks'>Login</a>
             <a href='/createenquiry' className='navlinks'>Create Enquiry</a>
+            <a href='/todo' className='navlinks'>ToDo</a>
             </nav>
         </div>
     )

@@ -7,6 +7,8 @@ import Home from './Home';
 import Services from './Services';
 import Login from './Login';
 import CreateEnquiry from './CreateEnquiry';
+import ToDoApp from './ToDoApp';
+import ProductDetails from './ProductDetails';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='*' element={<h2>Page Not Found</h2>} />
           <Route path='/login' element={<Login />}/>
+          <Route path='/todo' element={<ToDoApp/>}/>
+          <Route path='productdetails' element={<ProductDetails/>} />
         </Routes>
         </BrowserRouter>
     </div>
